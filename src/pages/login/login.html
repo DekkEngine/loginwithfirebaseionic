@@ -1,0 +1,41 @@
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content padding text-center >
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="top20" >
+        <!-- <div text-center > -->
+          <img src="assets/imgs/app-logo.png">
+        <!-- </div> -->
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="top20" >
+        <h3>ionic login app</h3>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="top5" >
+        <button ion-button (click)="signInGoogle()" color="google" icon-left block >
+          <ion-icon name="logo-google" >
+            google
+          </ion-icon>
+        </button>
+        <button ion-button (click)="signInWithFacebook()" color="facebook" icon-left block >
+          <ion-icon name="logo-facebook" >
+            facebook
+          </ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

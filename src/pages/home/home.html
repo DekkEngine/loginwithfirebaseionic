@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+  <ion-item text-center >
+    <img class="img" [src]="usuario.imagen" alt="">
+  </ion-item>
+  <ion-item> {{ usuario.email }} </ion-item>
+  <ion-item> {{ usuario.nombre }} </ion-item>
+  <ion-item> {{ usuario.provider }} </ion-item>
+  <ion-item> {{ usuario.uid }} </ion-item>
+  <ion-item> 
+    <button ion-button (click)="salir()" >Cerrar sesion</button>
+  </ion-item>
+</ion-list>
+
+</ion-content>
